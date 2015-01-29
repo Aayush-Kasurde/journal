@@ -12,3 +12,5 @@ Contents:
    :maxdepth: 1 
 
    bash
+   sg_utils
+   gnu-screen   
