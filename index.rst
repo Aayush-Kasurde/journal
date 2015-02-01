@@ -11,6 +11,19 @@ Contents:
 .. toctree::
    :maxdepth: 1 
 
+   aix
+   alias
+   awk
    bash
+   bashrc
+   command
+   gnu-screen
+   kernel
+   ps
+   proc
+   sg_presist
    sg_utils
-   gnu-screen   
+   wget
+   vim
+   
+ 
