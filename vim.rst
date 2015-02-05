@@ -9,3 +9,13 @@ VIM
 	
 		:map h2 yypVr-o
 
+* Replace content from current file to end of file ::
+	
+		:.,$s/pattern1/pattern2/gc
+
+* Change certain number of lines from current line ::
+
+		:.,.+<number>s/pattern1/pattern2/gc
+
+  **Usage** : :.,.+4s/foo/bar/gc # this is will replace foo to bar
+              from current line to next 4 lines.
