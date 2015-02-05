@@ -5,9 +5,9 @@ AIX
         
         # nim -Fo reset <hostname> 
  
-  	**Usage**: $ nim -Fo reset dbaix1-v8
+  **Usage**: $ nim -Fo reset dbaix1-v8
 
-	This is will reset NIM client dbaix1-v8 to ready state 
+	     This is will reset NIM client dbaix1-v8 to ready state 
 
 * Deallocate resources from NIM client from NIM server ::
 
@@ -29,11 +29,11 @@ AIX
         
         # chfs -a size=+1G /opt
 
-        or 
+  or ::
 
         # chfs -a size=-1G /opt
 
-* List Fibre Card ::
+* List Fibre Card adapter ::
 	
 		# lsdev -Cc <adapter_name>
 

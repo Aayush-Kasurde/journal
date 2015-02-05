@@ -18,10 +18,10 @@ AWK
 		}'
 
 
-* Ignore case in matching string like `grep -i` ::
+* Ignore case in matching string like ```grep -i``` ::
 	
 		$ echo "caseless" | awk ' BEGIN { IGNORECASE=1; } /CASELESS/ { print }'
 
-* Skip first and last column::
+* Skip first and last column ::
 
         # awk '{$1="";$NF="";print}' <filename>
