@@ -17,7 +17,10 @@ Contents:
    bash
    bashrc
    command
+   cpan
+   git
    gnu-screen
+   iscsi
    kernel
    ps
    proc
