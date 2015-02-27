@@ -13,11 +13,15 @@ Contents:
 
    aix
    alias
+   apt
    awk
    bash
    bashrc
    command
    cpan
+   crash
+   dpkg
+   find
    git
    gnu-screen
    iscsi
