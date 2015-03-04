@@ -22,15 +22,20 @@ Contents:
    crash
    dpkg
    find
+   gdb
    git
    gnu-screen
+   grep
    iscsi
+   java
    kernel
+   mysql
    ps
    proc
    sg_presist
    sg_utils
    wget
    vim
+   yum
    
  
