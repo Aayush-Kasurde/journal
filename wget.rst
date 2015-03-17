@@ -5,7 +5,7 @@ wget
 
     	$ cat <file_containing_url> | xargs wget -c
 
-    **Usage** : `cat urlist.txt | xargs wget -c` #download content of url for urlist.txt
+  **Usage** : `cat urlist.txt | xargs wget -c` #download content of url for urlist.txt
 
 * Download list of files using wget::
 
@@ -15,4 +15,4 @@ wget
 
     	$ wget --post-data "name=aayush" http://localhost/login.php
 
-    **Usage** : Here login.php will contain code for processing post data
+ **Usage** : Here login.php will contain code for processing post data

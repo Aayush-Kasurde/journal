@@ -32,3 +32,15 @@ git
 * Diff files which are under staging ::
 
 		$ git diff --staged
+
+* Diff between two commits :: 
+
+		$ git diff <commit_1> <commit_2>
+		
+* Diff between two branches ::
+
+		$ git diff <branch_1> <branch_2>
+		
+* Push Local branch to github :: 
+
+		$ git push <remotename> <branchname>
