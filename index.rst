@@ -32,6 +32,7 @@ Contents:
    mysql
    ps
    proc
+   sed
    sg_presist
    sg_utils
    wget
