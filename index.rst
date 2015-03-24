@@ -30,6 +30,7 @@ Contents:
    java
    kernel
    mysql
+   netem
    ps
    proc
    sed
