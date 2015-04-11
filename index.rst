@@ -24,6 +24,7 @@ Contents:
    find
    gdb
    git
+   github
    gnu-screen
    grep
    iscsi
