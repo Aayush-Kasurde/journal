@@ -30,6 +30,7 @@ Contents:
    iscsi
    java
    kernel
+   mdadm
    mysql
    netem
    ps
