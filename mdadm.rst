@@ -16,3 +16,11 @@ mdadm
 * Verifying the status of the RAID arrays ::
     
     $ mdadm --detail /dev/md0
+
+* Stop RAID arrays ::
+    
+    $ mdadm --stop /dev/md0
+
+* Start RAID arrays ::
+    
+    $ mdadm --start /dev/md0
