@@ -1,6 +1,14 @@
 VIM
 ===
 
+* Read command output to current line ::
+    
+        :read ! <command>
+
+* Open file under cursor ::
+
+        gf
+
 * Create heading 1 in markdown ::
 
 		:map h1 yypVr=o
