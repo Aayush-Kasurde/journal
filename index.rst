@@ -17,6 +17,7 @@ Contents:
    awk
    bash
    bashrc
+   certcmd
    command
    cpan
    crash
