@@ -30,6 +30,7 @@ Contents:
    grep
    iscsi
    java
+   journalctl
    kernel
    ldap
    mdadm

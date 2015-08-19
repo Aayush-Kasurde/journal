@@ -42,3 +42,8 @@ Common Extensions
 * Converting encoding from DER to PEM ::
     
     $ openssl x509 -in cert.crt -inform der -outform pem -out cert.pem
+
+
+* Create p12 from certificate and key :: 
+    
+    $ openssl pkcs12 -export -out server.p12 -inkey server.key -in server.crt -certfile CACert.crt
