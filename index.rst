@@ -36,6 +36,7 @@ Contents:
    mdadm
    mysql
    netem
+   openssl
    ps
    proc
    sed
