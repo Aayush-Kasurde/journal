@@ -28,6 +28,7 @@ Contents:
    github
    gnu-screen
    grep
+   ipa
    iscsi
    java
    journalctl
@@ -42,9 +43,12 @@ Contents:
    sed
    sg_presist
    sg_utils
+   sudo
    wget
    vim
    yum
+   qemu
    questions\index
+
    
  

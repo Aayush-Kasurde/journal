@@ -44,3 +44,12 @@ git
 * Push Local branch to github :: 
 
 		$ git push <remotename> <branchname>
+
+* Create patch using git format-patch ::
+
+    $ git format-patch master --stdout > fix_empty_poster.patch
+
+
+* View first 3 commit messages in git log ::
+    
+    $ git log --pretty=oneline -3
