@@ -22,3 +22,7 @@ LDAP
 * Search base ::
 
         $ /usr/bin/ldapsearch -h $HOSTNAME -b "dc=example,dc=com" -s base -x -w Secret123
+
+* Modifying entry using command ::
+    
+        $ /usr/bin/ldapmodify -a -x -h $HOSTNAME -p 389 -D "cn=Directory Manager" -w Secret123 -c -f ./subtree.ldif 
