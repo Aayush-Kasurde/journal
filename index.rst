@@ -44,6 +44,7 @@ Contents:
    sg_presist
    sg_utils
    sudo
+   systemctl
    wget
    vim
    yum
