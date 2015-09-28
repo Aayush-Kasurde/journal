@@ -23,6 +23,7 @@ Contents:
    crash
    dpkg
    find
+   firewalld
    gdb
    git
    github
