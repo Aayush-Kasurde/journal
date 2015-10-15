@@ -10,3 +10,13 @@ Journalctl
 * View sshd logs using journalctl :: 
     
     $ journalctl _COMM=sshd
+
+
+* View yesterday's log ::
+
+    $ journalctl --yesterday
+
+
+* View all logs from yesterday ::
+
+    $ journalctl --since "2015-10-10" --until "2015-01-11"
