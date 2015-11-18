@@ -9,7 +9,7 @@ The true delight is in the finding out rather than in the knowing.
 Contents:
 
 .. toctree::
-   :maxdepth: 1 
+   :maxdepth: 1
 
    aix
    alias
@@ -41,6 +41,7 @@ Contents:
    openssl
    ps
    proc
+   python
    sed
    sg_presist
    sg_utils
@@ -52,5 +53,3 @@ Contents:
    qemu
    questions\index
 
-   
- 
