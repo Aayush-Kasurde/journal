@@ -68,3 +68,7 @@ git
 
    $ git reset HEAD^ --hard
    $ git push origin master -f
+
+* Revert git pull ::
+
+  $ git reset --hard
