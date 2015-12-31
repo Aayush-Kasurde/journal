@@ -30,6 +30,7 @@ Contents:
    gnu-screen
    grep
    ipa
+   iptables
    iscsi
    java
    journalctl
