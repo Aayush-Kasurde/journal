@@ -35,3 +35,7 @@ VIM
 * Return to mark ::
 
     <esc> '<key>
+
+* Deleting everything from paraenthese ::
+
+    <esc> di(
