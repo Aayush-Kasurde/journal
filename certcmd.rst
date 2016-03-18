@@ -56,3 +56,20 @@ Common Extensions
 * Create p12 from certificate and key ::
 
     $ openssl pkcs12 -export -out server.p12 -inkey server.key -in server.crt -certfile CACert.crt
+
+
+* Extracting the certificates and keys from the DBM files can be done with NSS tools ::
+
+    # certutil -L -d .
+    Certificate Nickname                                         Trust Attributes
+                                                                 SSL,S/MIME,JAR/XPI
+    FreeIPA CA                                                       CT,C,C
+    # certutil -L -d . -a -n 'FreeIPA CA' > freeipa.crt
+
+* Extracting Private Key ::
+
+  $ openssl pkcs12 -in yourP12File.pfx -nocerts -out privateKey.pem
+
+* Extracting Certificate Key ::
+
+  $ openssl pkcs12 -in yourP12File.pfx -clcerts -nokeys -out publicCert.pem

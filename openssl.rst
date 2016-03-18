@@ -17,3 +17,7 @@ OpenSSL
     
     $ openssl req -new -key example.key -out example.csr -subj "/C=GB/ST=London/L=London/O=Global Security/OU=IT Department/CN=example.com"
 
+* View p12 file ::
+	
+    $ openssl pkcs12 -info -in keyStore.p12
+
