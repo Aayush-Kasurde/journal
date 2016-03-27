@@ -39,3 +39,8 @@ VIM
 * Deleting everything from paraenthese ::
 
     <esc> di(
+
+* Using temporary buffers ::
+
+    <esc>"a4yy
+    <esc>"ap
