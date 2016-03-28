@@ -9,7 +9,7 @@ The true delight is in the finding out rather than in the knowing.
 Contents:
 
 .. toctree::
-   :maxdepth: 1 
+   :maxdepth: 1
 
    aix
    alias
@@ -17,30 +17,41 @@ Contents:
    awk
    bash
    bashrc
+   certcmd
    command
    cpan
    crash
    dpkg
    find
+   firewalld
    gdb
    git
    github
    gnu-screen
    grep
+   ipa
+   iptables
    iscsi
    java
+   journalctl
    kernel
+   ldap
    mdadm
    mysql
    netem
+   nodejs
+   openssl
    ps
    proc
+   python
    sed
    sg_presist
    sg_utils
+   sudo
+   systemctl
    wget
    vim
    yum
+   qemu
    questions\index
-   
- 
+
